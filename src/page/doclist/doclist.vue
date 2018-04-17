@@ -148,7 +148,7 @@ export default {
         	},
         	queryForList(){
         		this.showLoading();
-console.log(btoa("wcadmin" + ":" + "ptc"));
+                console.log(btoa("wcadmin" + ":" + "ptc"));
         		$.ajax({
                 url:'/Windchill/rfa/mgl/weixin/getDocList.jsp', //接口地址
 
